@@ -1,0 +1,11 @@
+name = "stm32f4_hal"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Hedi Belkahia"]
+maintainers = ["Hedi Belkahia <hedibelkahia03@gmail.com>"]
+maintainers-logins = ["hediblk"]
+[[depends-on]]
+gnat_arm_elf = "^12.2.1"
+[[depends-on]]
+hal = "~0.3.0"
